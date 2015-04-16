@@ -26,7 +26,7 @@ var ExpressServer = function(config){
     }
 
     this.expressServer.get('/article/save/', function(req,res,next){
-        res.render('article_save',{nombre:'diego'});
+        res.render('article_save',{nombre:'marcos'});
     });
 
     this.expressServer.get('/article/list/', function(req,res,next){
