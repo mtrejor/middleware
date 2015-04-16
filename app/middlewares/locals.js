@@ -1,4 +1,4 @@
 module.exports = function(req, res, next){
-    res.locals.nick = 'DiegoUG';
+    res.locals.nick = 'mtrejor';
     next();
 }; 
